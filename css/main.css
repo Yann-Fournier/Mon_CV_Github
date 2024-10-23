@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700);
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0 0;
+  font-size: 32px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+}
+
+h4 {
+  margin: 0 0 0 0;
+  font-size: 27px;
+  font-family: "Oswald", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+.body{
+  display: "flex";
+  flex-direction: "column";
+  height: 80%;
+  width: 80%;
+  margin-top: 150px;
+  margin-right: 10%;
+  margin-bottom: 150px;
+  margin-left: 10%;
+}
+
+.separation {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* 1er partie - Infos perso */
+
+.infos_perso {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.photo_profil {
+  height: 400px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  min-width: 230px;
+  height: 100%;
+  gap: 5%;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Couleur du bouton */
+  color: white; /* Couleur du texte */
+  text-align: center;
+  text-decoration: none; /* Supprime le soulignement des liens */
+  border-radius: 5px; /* Bords arrondis */
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto", sans-serif;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+  transform: scale(105%);
+  background-color: #45a049; /* Couleur au survol */
+}
+
+.div-coordonnee {
+  display: flex; 
+  flex-direction: row; 
+  align-items: center;
+}
+
+/* 2e partie - Phrase desciptive */
+
+.phrase{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* 3e partie -  Compétences*/
